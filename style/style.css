@@ -54,7 +54,7 @@ body{
     letter-spacing: 0%;
     }
     
-.banner-text-container button{
+.btn{
     border-radius: 8px;
     background: rgb(229, 84, 115);
     padding: 20px 43px 20px 43px;
@@ -171,4 +171,24 @@ body{
     font-weight: 600;
     margin-top: 20px;
     
+}
+.hot-deal{
+    background-color:rgba(229, 84, 115, 0.05) ;
+}
+.hot-deal-container{
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+    
+}
+.red{
+    color:rgb(229, 84, 115) ;
+}
+.hot-deal-text-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;   
 }
