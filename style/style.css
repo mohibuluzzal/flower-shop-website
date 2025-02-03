@@ -192,7 +192,6 @@ body{
     align-items: center;
     text-align: center;   
 }
-
 .insta-images{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
