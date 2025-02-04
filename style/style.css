@@ -78,7 +78,7 @@ body{
     margin-top: 150px;
 }
 
-.feature-and-insta-text-container{
+.primary-text-container{
     width: 50%;
     margin: 0 auto;
     text-align: center;
@@ -200,4 +200,33 @@ body{
 }
 .insta-images img{
     width: 100%;
+}
+.latest-deal{
+    background-image: url(../assets/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+   background-size: contain;
+}
+.second-width{
+    max-width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid rgba(219, 220, 220, 0);
+}
+
+.latest-deal .primary-text-container{
+    margin-top: 100px;
+}
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.info-container input{
+    width: 550px;
+    height: 65px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-top: 30px;
 }
