@@ -230,3 +230,31 @@ body{
     background: rgb(255, 255, 255);
     margin-top: 30px;
 }
+footer{
+    height: 400px;
+    background-color: black;
+}
+.footer-section{
+    color:white;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.footer-section h2{
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+#red{
+    color: #E55473;
+}
+.footer-section p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.footer-section small{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+}
