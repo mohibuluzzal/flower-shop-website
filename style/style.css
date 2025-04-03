@@ -258,3 +258,45 @@ footer{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.4);
 }
+/* for mobile responsive
+====================== */
+@media screen and (max-width: 576px) {
+    .flex-style {
+        flex-direction: column;
+    }
+    .perfect-width, .second-perfect-width, .second-width{
+        max-width: 550px;
+        height: auto;
+    }
+    .banner-image-container img {
+        height: auto;
+        width: 100%;
+    }
+    .primary-text-container {
+        width: 100%;
+    }
+    .featerd-images{
+        flex-direction: column;
+    }
+    .img-with-p {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .hot-deal-container{
+        flex-direction: column;
+    }
+    .insta-images {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .latest-deal {
+        background-size: cover;
+    }
+    .info-container{
+        flex-direction: column;
+    }
+    .info-container input{
+        width: 90%;
+    }
+}
